@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+venv/
+.venv/
+.env
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Project caches / runtime artifacts
+AI4SoftwareUpdatePrompt/.live_cache/
+AI4SoftwareUpdatePrompt/.seeds/
+AI4SoftwareUpdatePrompt/.session_memory.json
+
+# Large generated datasets / vector stores
+AI4SoftwareUpdatePrompt/embedded_dataset_skip_os/
+AI4SoftwareUpdatePrompt/embedded_dataset_skip_os_reddit/
+AI4SoftwareUpdatePrompt/chroma_db/
+AI4SoftwareUpdatePrompt/release_notes_store/
+
+# Large archives
+AI4SoftwareUpdatePrompt/ollama.tar.gz
+
+# Optional: generated plots (keep if professor wants results)
+# AI4SoftwareUpdatePrompt/*.png
+# AI4SoftwareUpdatePrompt/visualizations/
